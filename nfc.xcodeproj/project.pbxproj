@@ -13,8 +13,6 @@
 		7523B2F2235D5D8B004A588C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7523B2F0235D5D8B004A588C /* Main.storyboard */; };
 		7523B2F4235D5D8C004A588C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7523B2F3235D5D8C004A588C /* Assets.xcassets */; };
 		7523B2F7235D5D8C004A588C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7523B2F5235D5D8C004A588C /* LaunchScreen.storyboard */; };
-		7523B302235D5D8D004A588C /* nfcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7523B301235D5D8D004A588C /* nfcTests.swift */; };
-		7523B30D235D5D8D004A588C /* nfcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7523B30C235D5D8D004A588C /* nfcUITests.swift */; };
 		7523B363236024A2004A588C /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7523B362236024A2004A588C /* CardCell.swift */; };
 		7523B3652360302D004A588C /* CardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7523B3642360302D004A588C /* CardTableViewController.swift */; };
 		F6FB2B99235EEAE1005D0BEE /* FixedWidthInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FB2B98235EEAE1005D0BEE /* FixedWidthInteger.swift */; };
@@ -51,11 +49,7 @@
 		7523B2F6235D5D8C004A588C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7523B2F8235D5D8C004A588C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7523B2FD235D5D8D004A588C /* nfcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nfcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7523B301235D5D8D004A588C /* nfcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nfcTests.swift; sourceTree = "<group>"; };
-		7523B303235D5D8D004A588C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7523B308235D5D8D004A588C /* nfcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nfcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7523B30C235D5D8D004A588C /* nfcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nfcUITests.swift; sourceTree = "<group>"; };
-		7523B30E235D5D8D004A588C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7523B31A235D5DA6004A588C /* nfc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = nfc.entitlements; sourceTree = "<group>"; };
 		7523B362236024A2004A588C /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
 		7523B3642360302D004A588C /* CardTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTableViewController.swift; sourceTree = "<group>"; };
@@ -95,8 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				7523B2E9235D5D8B004A588C /* nfc */,
-				7523B300235D5D8D004A588C /* nfcTests */,
-				7523B30B235D5D8D004A588C /* nfcUITests */,
 				7523B2E8235D5D8B004A588C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -128,24 +120,6 @@
 				7523B3642360302D004A588C /* CardTableViewController.swift */,
 			);
 			path = nfc;
-			sourceTree = "<group>";
-		};
-		7523B300235D5D8D004A588C /* nfcTests */ = {
-			isa = PBXGroup;
-			children = (
-				7523B301235D5D8D004A588C /* nfcTests.swift */,
-				7523B303235D5D8D004A588C /* Info.plist */,
-			);
-			path = nfcTests;
-			sourceTree = "<group>";
-		};
-		7523B30B235D5D8D004A588C /* nfcUITests */ = {
-			isa = PBXGroup;
-			children = (
-				7523B30C235D5D8D004A588C /* nfcUITests.swift */,
-				7523B30E235D5D8D004A588C /* Info.plist */,
-			);
-			path = nfcUITests;
 			sourceTree = "<group>";
 		};
 		F6FB2B97235EEACD005D0BEE /* Extension */ = {
@@ -315,7 +289,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7523B302235D5D8D004A588C /* nfcTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,7 +296,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7523B30D235D5D8D004A588C /* nfcUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
